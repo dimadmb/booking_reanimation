@@ -1,0 +1,31 @@
+{
+  "name": "vodohod_jj",
+  "authors": [
+    "test"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mustache.js": "mustache#^2.2.1",
+    "jquery": "^2.2.3",
+    "uikit": "^2.26.3",
+    "lodash": "^4.12.0",
+    "rcswitcher": "git://github.com/ahmad-sa3d/rcswitcher.git",
+    "font-awesome": "fontawesome#^4.6.3",
+    "StickyTableHeaders": "^0.1.19",
+    "jquery.maskedinput": "git://github.com/digitalBush/jquery.maskedinput.git#^1.4.1",
+    "json2": "*",
+    "validationEngine": "^2.6.4",
+    "chosen": "^1.5.1"
+  }
+}

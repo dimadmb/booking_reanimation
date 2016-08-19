@@ -1,0 +1,13 @@
+{
+  "name": "rcswitcher",
+  "homepage": "https://github.com/ahmad-sa3d/rcswitcher",
+  "_release": "add7dc515b",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "add7dc515b268090d4d76c9926312c61e6eb8139"
+  },
+  "_source": "git://github.com/ahmad-sa3d/rcswitcher.git",
+  "_target": "*",
+  "_originalSource": "git://github.com/ahmad-sa3d/rcswitcher.git"
+}

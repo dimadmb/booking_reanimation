@@ -1,0 +1,109 @@
+<style type="text/css">
+
+    .discount15{
+
+        border : 2px #ccc solid;
+        border-radius: 8px;
+        padding: 4px 8px 4px 8px;
+
+        cursor: pointer;
+
+        display: inline-block;
+        width: 150px;
+    }
+
+    .noVisible{
+        display: none;
+    }
+
+
+    .uk-modal-dialog{
+        width: 810px;
+    }
+
+    .backLightDiscount{
+
+        border : 2px #f00 solid;
+    }
+
+    .uk-active {
+        color :#fd6a00 !important;
+        font-weight: bold !important;
+        /*font-size: 120%;;*/
+    }
+
+    .divGroup{
+        width: 200px;
+    }
+
+    .divGroup label {
+        display: inline-block;
+    }
+
+    input[checked] {
+        font-weight: bold;;
+    }
+
+    label.checked{
+        color : #ef5400;
+        font-weight: bold;;
+    }
+
+    .is_delete{
+        background: rgba(255,0,0,0.5) !important;
+    }
+</style>
+<table class="uk-table uk-table-striped">
+
+    <thead>
+    <tr>
+        <th></th>
+        <th>Теплоход</th>
+        <th>Отправление</th>
+
+        <th>Прибытие</th>
+        <th>Дней</th>
+
+        <th>Тур</th>
+        <th></th>
+
+
+    </tr>
+    </thead>
+
+    {{#turs}}
+
+        <tr data-id="{{id}}"
+
+            {{#is_delete}} class="is_delete" {{/is_delete}}
+        >
+            <td>{{id}}</td>
+            <td>{{teplohod}}</td>
+            <td>{{date_start2}}</td>
+            <td>{{date_stop2}}</td>
+            <td>{{days}}</td>
+            <td>{{name}}</td>
+            <td>
+                {{^is_delete}}
+                <div class="divGroup ">
+                    <label class="{{type_off}}"><input class="doDiscount" data-type-discount="off" name="type_request{{id}}" type="radio" {{type_off}}>
+                        НЕТ</label>
+                    <label class="{{type_happy}}"><input class="doDiscount" data-type-discount="happy" name="type_request{{id}}" type="radio" {{type_happy}}>
+                        <i class="fa fa-smile-o"></i> <?=config::$discount_happy?> %</label>
+                    <label class="{{type_special}}" ><input class="doDiscount" data-type-discount="special" name="type_request{{id}}" type="radio" {{type_special}}>
+                         <?=config::$discount_special?> %</label>
+                </div>
+                {{/is_delete}}
+            </td>
+
+
+        </tr>
+    {{/turs}}
+</table>
+
+<div id="kautas" class="uk-modal">
+    <div class="uk-modal-dialog">
+        <a class="uk-modal-close uk-close"></a>
+        <div class="massKauta"></div>
+    </div>
+</div>

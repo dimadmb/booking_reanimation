@@ -1,0 +1,78 @@
+<style>
+    .reChangeBackground th {
+        background: #999;
+        color :#FFF;
+    }
+
+    .color-gk {
+        background: #ffd370 none repeat scroll 0 0;
+    }
+    .color-st {
+        background: #72b3e2 none repeat scroll 0 0;
+    }
+    .table-special-span {
+        border-radius: 5px;
+        color: #fff;
+        display: block;
+        margin: 3px;
+        padding: 3px 5px;
+        text-align: center;
+        white-space: nowrap;
+    }
+</style>
+<table class="table_turs uk-table uk-table-striped">
+
+    <thead>
+    <tr>
+        <th>Теплоход</th>
+        <th>Отправление</th>
+
+        <th>Прибытие</th>
+        <th>Дней</th>
+
+        <th>Маршрут</th>
+        <th></th>
+        <th></th>
+    </tr>
+    </thead>
+
+    <tbody>
+
+    {{#turs}}
+
+        <tr>
+            <td>{{teplohod}}</td>
+            <td>{{date_start2}}</td>
+            <td>{{date_stop2}}</td>
+            <td>{{days}}</td>
+            <td>
+
+                {{name}}
+            </td>
+
+            <td>
+                {{#is_happy}}
+                    <span class="is_happy table-special-span color-gk">
+                        «Счастливый» круиз
+                    </span>
+                {{/is_happy}}
+
+                {{#is_special}}
+                <span class="is_special  table-special-span color-st">
+                    Специальный тариф
+                </span>
+
+                {{/is_special}}
+
+            </td>
+
+            <td>
+                <a href="/cruise/{{id}}" target="_blank">
+                    бронировать
+                </a>
+            </td>
+        </tr>
+    {{/turs}}
+
+    </tbody>
+</table>

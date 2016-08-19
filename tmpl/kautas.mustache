@@ -1,0 +1,45 @@
+<style type="text/css">
+
+    .itemKauta{
+
+        font-weight: bold;
+
+        border: 3px #ccc solid;
+        border-radius: 6px;
+
+        padding: 2px 5px 2px 5px;
+        margin-top: 3px;
+        margin-left: 3px !important;
+
+        width: 25px !important;
+        text-align: center;
+
+        display: inline-block !important;
+
+
+        cursor: pointer;
+
+        user-select: none;
+        -moz-user-select: none;
+
+    }
+
+    .itemKauta:hover{
+
+        border: 3px #F00 solid;
+    }
+
+    .selectKauta{
+        background: rgba(255,0,0,0.3);
+    }
+</style>
+
+<h1 style="line-height: 0px;">Каюты теплохода "{{teplohod}}" </h1>
+<div style="margin-bottom: 10px;">{{d1}}-{{d2}} {{tur}}</div>
+
+<input class="id_tur" type="hidden" value="{{id_tur}}">
+
+{{#kautas}}
+
+    <span data-num="{{num}}" class="itemKauta {{selectKauta}} ">{{num}}</span>
+{{/kautas}}
