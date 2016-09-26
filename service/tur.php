@@ -36,7 +36,7 @@ switch($action){
         $type = $_POST['type'];
 
 
-        if (!helper::isAdmin()) {
+        if (true || !helper::isAdmin()) {
 
             if ($type == 'off') {
                 $url = "http://rech-agent.ru/api_in/cruise/happy/$id/0";

@@ -497,6 +497,7 @@ $nums15 = $data['nums15'];
 					<?php
 					$tarif_name = array(0 => '(взр)', '(дет)', '(пенс)', '(школ)');
 					$mass_prices =  $all_kautas[  $r_order['num'] ];
+					
 					foreach ($tariffs as $key => $tariff){
 						foreach ($mass_prices as $index ) {
 							$data = $tariff->prices[$index];
@@ -529,7 +530,7 @@ $nums15 = $data['nums15'];
 									if ($res->num_rows==1) { $PRICE = round($PRICE * (100 - config::$discount_special) / 100);}
 								}
 
-								$title = $PRICE . $tarif_name[$key];
+								$title = $PRICE . ' '.$tariff->tariff_name;
 
 								$selected = '';
 								if ($r['price'] == $PRICE) $selected = " selected ";
