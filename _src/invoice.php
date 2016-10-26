@@ -597,6 +597,14 @@ $nums15 = $data['nums15'];
 	   style="margin-top: 20px;" class="uk-button uk-button-primary uk-width-1-1 uk-button-large ">
 		Получить счет
 	</a>
+	
+
+
+	<!--<a target="_blank" href="https://b2c.appex.ru/payment/choice?orderSourceCode=<?=$id;?>&billingCode=Rechnoeagentstvo003" style="margin-top: 20px;" class="uk-button uk-button-success uk-width-1-1 uk-button-large pay saveInvoice">
+		Оплатить онлайн
+	</a>-->
+
+	
 
 	<?php if (user::is_fiz() || user::is_manager()) { ?>
 

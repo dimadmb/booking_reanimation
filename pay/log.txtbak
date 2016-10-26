@@ -1,0 +1,2250 @@
+массив request
+13:08:08 2016-10-25
+Array
+(
+    [_ym_uid] => 1469787253229074507
+    [beget] => begetok
+    [_ga] => GA1.2.1292263937.1474273187
+)
+
+
+массив server
+13:08:08 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8vCFfsFDQAADTiTTYAAAAw
+    [GEOIP_ADDR] => 62.117.111.84
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => RU
+    [GEOIP_COUNTRY_NAME] => Russian Federation
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 55.750000
+    [GEOIP_LONGITUDE] => 37.616600
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 62.117.111.84
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, sdch
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    [HTTP_COOKIE] => _ym_uid=1469787253229074507; beget=begetok; _ga=GA1.2.1292263937.1474273187
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 62.117.111.84
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 50004
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /pay/pay.php
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477390088.11
+    [REQUEST_TIME] => 1477390088
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+
+массив request
+13:10:04 2016-10-25
+Array
+(
+    [_ym_uid] => 1469787253229074507
+    [beget] => begetok
+    [_ga] => GA1.2.1292263937.1474273187
+)
+
+
+массив server
+13:10:04 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8vfFfsFDQAAEphexkAAAAS
+    [GEOIP_ADDR] => 62.117.111.84
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => RU
+    [GEOIP_COUNTRY_NAME] => Russian Federation
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 55.750000
+    [GEOIP_LONGITUDE] => 37.616600
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 62.117.111.84
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, sdch
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    [HTTP_COOKIE] => _ym_uid=1469787253229074507; beget=begetok; _ga=GA1.2.1292263937.1474273187
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 62.117.111.84
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 24768
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /pay/pay.php
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477390204.53
+    [REQUEST_TIME] => 1477390204
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+
+массив request
+13:10:05 2016-10-25
+Array
+(
+    [_ym_uid] => 1469787253229074507
+    [beget] => begetok
+    [_ga] => GA1.2.1292263937.1474273187
+)
+
+
+массив server
+13:10:05 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8vfVfsFDQAADRzKmEAAAAb
+    [GEOIP_ADDR] => 62.117.111.84
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => RU
+    [GEOIP_COUNTRY_NAME] => Russian Federation
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 55.750000
+    [GEOIP_LONGITUDE] => 37.616600
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 62.117.111.84
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, sdch
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    [HTTP_COOKIE] => _ym_uid=1469787253229074507; beget=begetok; _ga=GA1.2.1292263937.1474273187
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 62.117.111.84
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 25296
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /pay/pay.php
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477390205.97
+    [REQUEST_TIME] => 1477390205
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
+
+
+массив request
+13:10:11 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129978065943465
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025131006
+    [CODE1] => test01
+)
+
+
+массив server
+13:10:11 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8vg1fsFDQAADkgtfcAAABG
+    [GEOIP_ADDR] => 95.211.80.11
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => NL
+    [GEOIP_COUNTRY_NAME] => Netherlands
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 52.366699
+    [GEOIP_LONGITUDE] => 4.900000
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 95.211.80.11
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 95.211.80.11
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 27124
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129978065943465&AMOUNT=100&PAYTYPE=2&DATE=20161025131006&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129978065943465&AMOUNT=100&PAYTYPE=2&DATE=20161025131006&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477390211.32
+    [REQUEST_TIME] => 1477390211
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129978065943465&AMOUNT=100&PAYTYPE=2&DATE=20161025131006&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+массив request
+13:10:40 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129978360610319
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025131036
+    [CODE1] => test01
+)
+
+
+массив server
+13:10:40 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8voFfsFDQAAE5gf5YAAAAE
+    [GEOIP_ADDR] => 95.211.80.11
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => NL
+    [GEOIP_COUNTRY_NAME] => Netherlands
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 52.366699
+    [GEOIP_LONGITUDE] => 4.900000
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 95.211.80.11
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 95.211.80.11
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 35882
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129978360610319&AMOUNT=100&PAYTYPE=2&DATE=20161025131036&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129978360610319&AMOUNT=100&PAYTYPE=2&DATE=20161025131036&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477390240.68
+    [REQUEST_TIME] => 1477390240
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129978360610319&AMOUNT=100&PAYTYPE=2&DATE=20161025131036&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+массив request
+13:13:04 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129979798602568
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025131259
+    [CODE1] => test01
+)
+
+
+массив server
+13:13:04 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8wMFfsFDQAABlDsR0AAAAy
+    [GEOIP_ADDR] => 95.211.80.11
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => NL
+    [GEOIP_COUNTRY_NAME] => Netherlands
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 52.366699
+    [GEOIP_LONGITUDE] => 4.900000
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 95.211.80.11
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 95.211.80.11
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 17516
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129979798602568&AMOUNT=100&PAYTYPE=2&DATE=20161025131259&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129979798602568&AMOUNT=100&PAYTYPE=2&DATE=20161025131259&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477390384.48
+    [REQUEST_TIME] => 1477390384
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129979798602568&AMOUNT=100&PAYTYPE=2&DATE=20161025131259&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+массив request
+13:14:20 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129980554275790
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025131415
+    [CODE1] => test01
+)
+
+
+массив server
+13:14:20 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8wfFfsFDQAAFADnOoAAABN
+    [GEOIP_ADDR] => 95.211.80.11
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => NL
+    [GEOIP_COUNTRY_NAME] => Netherlands
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 52.366699
+    [GEOIP_LONGITUDE] => 4.900000
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 95.211.80.11
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 95.211.80.11
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 40180
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477390460.1
+    [REQUEST_TIME] => 1477390460
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+массив request
+13:15:16 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129980554275790
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025131415
+    [CODE1] => test01
+    [_ym_uid] => 1469787253229074507
+    [beget] => begetok
+    [_ga] => GA1.2.1292263937.1474273187
+)
+
+
+массив server
+13:15:16 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8wtFfsFDQAAILlsfgAAAAR
+    [GEOIP_ADDR] => 62.117.111.84
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => RU
+    [GEOIP_COUNTRY_NAME] => Russian Federation
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 55.750000
+    [GEOIP_LONGITUDE] => 37.616600
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 62.117.111.84
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, sdch
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    [HTTP_COOKIE] => _ym_uid=1469787253229074507; beget=begetok; _ga=GA1.2.1292263937.1474273187
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 62.117.111.84
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 56772
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477390516.82
+    [REQUEST_TIME] => 1477390516
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+массив request
+13:16:11 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129980554275790
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025131415
+    [CODE1] => test01
+    [_ym_uid] => 1469787253229074507
+    [beget] => begetok
+    [_ga] => GA1.2.1292263937.1474273187
+)
+
+
+массив server
+13:16:11 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8w61fsFDQAAJGcX5oAAAA2
+    [GEOIP_ADDR] => 62.117.111.84
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => RU
+    [GEOIP_COUNTRY_NAME] => Russian Federation
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 55.750000
+    [GEOIP_LONGITUDE] => 37.616600
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 62.117.111.84
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, sdch
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    [HTTP_COOKIE] => _ym_uid=1469787253229074507; beget=begetok; _ga=GA1.2.1292263937.1474273187
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 62.117.111.84
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 13520
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477390571.31
+    [REQUEST_TIME] => 1477390571
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+массив request
+13:16:12 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129980554275790
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025131415
+    [CODE1] => test01
+    [_ym_uid] => 1469787253229074507
+    [beget] => begetok
+    [_ga] => GA1.2.1292263937.1474273187
+)
+
+
+массив server
+13:16:12 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8w7FfsFDQAAJH8mFgAAABd
+    [GEOIP_ADDR] => 62.117.111.84
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => RU
+    [GEOIP_COUNTRY_NAME] => Russian Federation
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 55.750000
+    [GEOIP_LONGITUDE] => 37.616600
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 62.117.111.84
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, sdch
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    [HTTP_COOKIE] => _ym_uid=1469787253229074507; beget=begetok; _ga=GA1.2.1292263937.1474273187
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 62.117.111.84
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 13916
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477390572.83
+    [REQUEST_TIME] => 1477390572
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+массив request
+13:16:13 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129980554275790
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025131415
+    [CODE1] => test01
+    [_ym_uid] => 1469787253229074507
+    [beget] => begetok
+    [_ga] => GA1.2.1292263937.1474273187
+)
+
+
+массив server
+13:16:13 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8w7VfsFDQAAJH8mFkAAABd
+    [GEOIP_ADDR] => 62.117.111.84
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => RU
+    [GEOIP_COUNTRY_NAME] => Russian Federation
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 55.750000
+    [GEOIP_LONGITUDE] => 37.616600
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 62.117.111.84
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, sdch
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    [HTTP_COOKIE] => _ym_uid=1469787253229074507; beget=begetok; _ga=GA1.2.1292263937.1474273187
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 62.117.111.84
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 13916
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477390573.53
+    [REQUEST_TIME] => 1477390573
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+массив request
+13:16:14 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129980554275790
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025131415
+    [CODE1] => test01
+    [_ym_uid] => 1469787253229074507
+    [beget] => begetok
+    [_ga] => GA1.2.1292263937.1474273187
+)
+
+
+массив server
+13:16:14 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8w7lfsFDQAAJH8mFoAAABd
+    [GEOIP_ADDR] => 62.117.111.84
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => RU
+    [GEOIP_COUNTRY_NAME] => Russian Federation
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 55.750000
+    [GEOIP_LONGITUDE] => 37.616600
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 62.117.111.84
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, sdch
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    [HTTP_COOKIE] => _ym_uid=1469787253229074507; beget=begetok; _ga=GA1.2.1292263937.1474273187
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 62.117.111.84
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 13916
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477390574.04
+    [REQUEST_TIME] => 1477390574
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+массив request
+13:16:32 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129980554275790
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025131415
+    [CODE1] => test01
+    [_ym_uid] => 1469787253229074507
+    [beget] => begetok
+    [_ga] => GA1.2.1292263937.1474273187
+)
+
+
+массив server
+13:16:32 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8xAFfsFDQAAIeOggYAAABA
+    [GEOIP_ADDR] => 62.117.111.84
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => RU
+    [GEOIP_COUNTRY_NAME] => Russian Federation
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 55.750000
+    [GEOIP_LONGITUDE] => 37.616600
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 62.117.111.84
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, sdch
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    [HTTP_COOKIE] => _ym_uid=1469787253229074507; beget=begetok; _ga=GA1.2.1292263937.1474273187
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 62.117.111.84
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 18736
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477390592.21
+    [REQUEST_TIME] => 1477390592
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+массив request
+13:21:24 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129980554275790
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025131415
+    [CODE1] => test01
+    [_ym_uid] => 1469787253229074507
+    [beget] => begetok
+    [_ga] => GA1.2.1292263937.1474273187
+)
+
+
+массив server
+13:21:24 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8yJFfsFDQAALl-jD4AAABC
+    [GEOIP_ADDR] => 62.117.111.84
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => RU
+    [GEOIP_COUNTRY_NAME] => Russian Federation
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 55.750000
+    [GEOIP_LONGITUDE] => 37.616600
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 62.117.111.84
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, sdch
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    [HTTP_COOKIE] => _ym_uid=1469787253229074507; beget=begetok; _ga=GA1.2.1292263937.1474273187
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 62.117.111.84
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 22468
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477390884.82
+    [REQUEST_TIME] => 1477390884
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+массив request
+13:21:25 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129980554275790
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025131415
+    [CODE1] => test01
+    [_ym_uid] => 1469787253229074507
+    [beget] => begetok
+    [_ga] => GA1.2.1292263937.1474273187
+)
+
+
+массив server
+13:21:25 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8yJVfsFDQAALl-jD8AAABC
+    [GEOIP_ADDR] => 62.117.111.84
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => RU
+    [GEOIP_COUNTRY_NAME] => Russian Federation
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 55.750000
+    [GEOIP_LONGITUDE] => 37.616600
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 62.117.111.84
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, sdch
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    [HTTP_COOKIE] => _ym_uid=1469787253229074507; beget=begetok; _ga=GA1.2.1292263937.1474273187
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 62.117.111.84
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 22468
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477390885.53
+    [REQUEST_TIME] => 1477390885
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+массив request
+13:21:45 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129980554275790
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025131415
+    [CODE1] => test01
+    [_ym_uid] => 1469787253229074507
+    [beget] => begetok
+    [_ga] => GA1.2.1292263937.1474273187
+)
+
+
+массив server
+13:21:45 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8yOVfsFDQAAMYsj08AAAAy
+    [GEOIP_ADDR] => 62.117.111.84
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => RU
+    [GEOIP_COUNTRY_NAME] => Russian Federation
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 55.750000
+    [GEOIP_LONGITUDE] => 37.616600
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 62.117.111.84
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, sdch
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    [HTTP_COOKIE] => _ym_uid=1469787253229074507; beget=begetok; _ga=GA1.2.1292263937.1474273187
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 62.117.111.84
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 26888
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477390905.97
+    [REQUEST_TIME] => 1477390905
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+массив request
+13:21:46 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129980554275790
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025131415
+    [CODE1] => test01
+    [_ym_uid] => 1469787253229074507
+    [beget] => begetok
+    [_ga] => GA1.2.1292263937.1474273187
+)
+
+
+массив server
+13:21:46 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8yOlfsFDQAAMYsj1AAAAAy
+    [GEOIP_ADDR] => 62.117.111.84
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => RU
+    [GEOIP_COUNTRY_NAME] => Russian Federation
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 55.750000
+    [GEOIP_LONGITUDE] => 37.616600
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 62.117.111.84
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, sdch
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    [HTTP_COOKIE] => _ym_uid=1469787253229074507; beget=begetok; _ga=GA1.2.1292263937.1474273187
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 62.117.111.84
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 26888
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477390906.52
+    [REQUEST_TIME] => 1477390906
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+РјР°СЃСЃРёРІ request
+13:21:54 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129980554275790
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025131415
+    [CODE1] => test01
+    [_ym_uid] => 1469787253229074507
+    [beget] => begetok
+    [_ga] => GA1.2.1292263937.1474273187
+)
+
+
+РјР°СЃСЃРёРІ server
+13:21:54 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8yQlfsFDQAAMBwrQUAAAAY
+    [GEOIP_ADDR] => 62.117.111.84
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => RU
+    [GEOIP_COUNTRY_NAME] => Russian Federation
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 55.750000
+    [GEOIP_LONGITUDE] => 37.616600
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 62.117.111.84
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, sdch
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    [HTTP_COOKIE] => _ym_uid=1469787253229074507; beget=begetok; _ga=GA1.2.1292263937.1474273187
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 62.117.111.84
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 28872
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477390914.04
+    [REQUEST_TIME] => 1477390914
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+РјР°СЃСЃРёРІ request
+13:21:54 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129980554275790
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025131415
+    [CODE1] => test01
+    [_ym_uid] => 1469787253229074507
+    [beget] => begetok
+    [_ga] => GA1.2.1292263937.1474273187
+)
+
+
+РјР°СЃСЃРёРІ server
+13:21:54 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8yQlfsFDQAAMBwrQYAAAAY
+    [GEOIP_ADDR] => 62.117.111.84
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => RU
+    [GEOIP_COUNTRY_NAME] => Russian Federation
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 55.750000
+    [GEOIP_LONGITUDE] => 37.616600
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 62.117.111.84
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, sdch
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    [HTTP_COOKIE] => _ym_uid=1469787253229074507; beget=begetok; _ga=GA1.2.1292263937.1474273187
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 62.117.111.84
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 28872
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477390914.35
+    [REQUEST_TIME] => 1477390914
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+РјР°СЃСЃРёРІ request
+13:22:06 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129985221932764
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025132202
+    [CODE1] => test01
+)
+
+
+РјР°СЃСЃРёРІ server
+13:22:06 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8yTlfsFDQAAMhWq@0AAABU
+    [GEOIP_ADDR] => 95.211.80.11
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => NL
+    [GEOIP_COUNTRY_NAME] => Netherlands
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 52.366699
+    [GEOIP_LONGITUDE] => 4.900000
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 95.211.80.11
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 95.211.80.11
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 31974
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129985221932764&AMOUNT=100&PAYTYPE=2&DATE=20161025132202&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129985221932764&AMOUNT=100&PAYTYPE=2&DATE=20161025132202&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477390926.96
+    [REQUEST_TIME] => 1477390926
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129985221932764&AMOUNT=100&PAYTYPE=2&DATE=20161025132202&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+РјР°СЃСЃРёРІ request
+13:22:17 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129980554275790
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025131415
+    [CODE1] => test01
+    [_ym_uid] => 1469787253229074507
+    [beget] => begetok
+    [_ga] => GA1.2.1292263937.1474273187
+)
+
+
+РјР°СЃСЃРёРІ server
+13:22:17 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8yWVfsFDQAAMII6FgAAAAf
+    [GEOIP_ADDR] => 62.117.111.84
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => RU
+    [GEOIP_COUNTRY_NAME] => Russian Federation
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 55.750000
+    [GEOIP_LONGITUDE] => 37.616600
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 62.117.111.84
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, sdch
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    [HTTP_COOKIE] => _ym_uid=1469787253229074507; beget=begetok; _ga=GA1.2.1292263937.1474273187
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 62.117.111.84
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 34424
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477390937.8
+    [REQUEST_TIME] => 1477390937
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+РјР°СЃСЃРёРІ request
+13:23:36 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129980554275790
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025131415
+    [CODE1] => test01
+    [_ym_uid] => 1469787253229074507
+    [beget] => begetok
+    [_ga] => GA1.2.1292263937.1474273187
+)
+
+
+РјР°СЃСЃРёРІ server
+13:23:36 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8yqFfsFDQAANHmB5IAAAAK
+    [GEOIP_ADDR] => 62.117.111.84
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => RU
+    [GEOIP_COUNTRY_NAME] => Russian Federation
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 55.750000
+    [GEOIP_LONGITUDE] => 37.616600
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 62.117.111.84
+    [HTTP_CACHE_CONTROL] => max-age=0
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, sdch
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+    [HTTP_COOKIE] => _ym_uid=1469787253229074507; beget=begetok; _ga=GA1.2.1292263937.1474273187
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 62.117.111.84
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 50390
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477391016.89
+    [REQUEST_TIME] => 1477391016
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129980554275790&AMOUNT=100&PAYTYPE=2&DATE=20161025131415&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+РјР°СЃСЃРёРІ request
+13:23:40 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129986158226317
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025132335
+    [CODE1] => test01
+)
+
+
+РјР°СЃСЃРёРІ server
+13:23:40 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8yrFfsFDQAANIRzy8AAAAn
+    [GEOIP_ADDR] => 95.211.80.11
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => NL
+    [GEOIP_COUNTRY_NAME] => Netherlands
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 52.366699
+    [GEOIP_LONGITUDE] => 4.900000
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 95.211.80.11
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 95.211.80.11
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 51260
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129986158226317&AMOUNT=100&PAYTYPE=2&DATE=20161025132335&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129986158226317&AMOUNT=100&PAYTYPE=2&DATE=20161025132335&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477391020.65
+    [REQUEST_TIME] => 1477391020
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129986158226317&AMOUNT=100&PAYTYPE=2&DATE=20161025132335&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+РјР°СЃСЃРёРІ request
+13:24:04 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129986397860024
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025132359
+    [CODE1] => test01
+)
+
+
+РјР°СЃСЃРёРІ server
+13:24:04 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8yxFfsFDQAANIOn5gAAAAg
+    [GEOIP_ADDR] => 95.211.80.11
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => NL
+    [GEOIP_COUNTRY_NAME] => Netherlands
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 52.366699
+    [GEOIP_LONGITUDE] => 4.900000
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 95.211.80.11
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 95.211.80.11
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 56098
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129986397860024&AMOUNT=100&PAYTYPE=2&DATE=20161025132359&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129986397860024&AMOUNT=100&PAYTYPE=2&DATE=20161025132359&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477391044.43
+    [REQUEST_TIME] => 1477391044
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129986397860024&AMOUNT=100&PAYTYPE=2&DATE=20161025132359&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+РјР°СЃСЃРёРІ request
+13:24:44 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129986799202979
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025132439
+    [CODE1] => test01
+)
+
+
+РјР°СЃСЃРёРІ server
+13:24:44 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8y7FfsFDQAANYROqsAAAAS
+    [GEOIP_ADDR] => 95.211.80.11
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => NL
+    [GEOIP_COUNTRY_NAME] => Netherlands
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 52.366699
+    [GEOIP_LONGITUDE] => 4.900000
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 95.211.80.11
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 95.211.80.11
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 64476
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129986799202979&AMOUNT=100&PAYTYPE=2&DATE=20161025132439&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129986799202979&AMOUNT=100&PAYTYPE=2&DATE=20161025132439&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477391084.56
+    [REQUEST_TIME] => 1477391084
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129986799202979&AMOUNT=100&PAYTYPE=2&DATE=20161025132439&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+РјР°СЃСЃРёРІ request
+13:25:20 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129987158793546
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025132515
+    [CODE1] => test01
+)
+
+
+РјР°СЃСЃРёРІ server
+13:25:20 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8zEFfsFDQAANjlHRYAAAAK
+    [GEOIP_ADDR] => 95.211.80.11
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => NL
+    [GEOIP_COUNTRY_NAME] => Netherlands
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 52.366699
+    [GEOIP_LONGITUDE] => 4.900000
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 95.211.80.11
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 95.211.80.11
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 11316
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129987158793546&AMOUNT=100&PAYTYPE=2&DATE=20161025132515&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129987158793546&AMOUNT=100&PAYTYPE=2&DATE=20161025132515&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477391120.53
+    [REQUEST_TIME] => 1477391120
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129987158793546&AMOUNT=100&PAYTYPE=2&DATE=20161025132515&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+РјР°СЃСЃРёРІ request
+13:26:49 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129988050064524
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025132645
+    [CODE1] => test01
+)
+
+
+РјР°СЃСЃРёРІ server
+13:26:49 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA8zaVfsFDQAAAUxde0AAABA
+    [GEOIP_ADDR] => 95.211.80.11
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => NL
+    [GEOIP_COUNTRY_NAME] => Netherlands
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 52.366699
+    [GEOIP_LONGITUDE] => 4.900000
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 95.211.80.11
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 95.211.80.11
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 27682
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129988050064524&AMOUNT=100&PAYTYPE=2&DATE=20161025132645&CODE1=test01
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129988050064524&AMOUNT=100&PAYTYPE=2&DATE=20161025132645&CODE1=test01
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477391209.73
+    [REQUEST_TIME] => 1477391209
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129988050064524&AMOUNT=100&PAYTYPE=2&DATE=20161025132645&CODE1=test01
+        )
+
+    [argc] => 1
+)
+
+
+массив request
+13:30:01 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129989966764153
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025132956
+    [CODE1] => test02
+)
+
+
+массив server
+13:30:01 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA80KVfsFDQAABbm44MAAAAw
+    [GEOIP_ADDR] => 95.211.80.11
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => NL
+    [GEOIP_COUNTRY_NAME] => Netherlands
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 52.366699
+    [GEOIP_LONGITUDE] => 4.900000
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 95.211.80.11
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 95.211.80.11
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 7630
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129989966764153&AMOUNT=100&PAYTYPE=2&DATE=20161025132956&CODE1=test02
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129989966764153&AMOUNT=100&PAYTYPE=2&DATE=20161025132956&CODE1=test02
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477391401.45
+    [REQUEST_TIME] => 1477391401
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129989966764153&AMOUNT=100&PAYTYPE=2&DATE=20161025132956&CODE1=test02
+        )
+
+    [argc] => 1
+)
+
+
+массив request
+13:30:49 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129990450771837
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025133045
+    [CODE1] => test02
+)
+
+
+массив server
+13:30:49 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA80WVfsFDQAABXGNMYAAAAg
+    [GEOIP_ADDR] => 95.211.80.11
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => NL
+    [GEOIP_COUNTRY_NAME] => Netherlands
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 52.366699
+    [GEOIP_LONGITUDE] => 4.900000
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 95.211.80.11
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 95.211.80.11
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 18154
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129990450771837&AMOUNT=100&PAYTYPE=2&DATE=20161025133045&CODE1=test02
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129990450771837&AMOUNT=100&PAYTYPE=2&DATE=20161025133045&CODE1=test02
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477391449.77
+    [REQUEST_TIME] => 1477391449
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129990450771837&AMOUNT=100&PAYTYPE=2&DATE=20161025133045&CODE1=test02
+        )
+
+    [argc] => 1
+)
+
+
+массив request
+13:35:54 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 1
+    [PAYID] => 636129993500806289
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025133550
+    [CODE1] => test02
+)
+
+
+массив server
+13:35:54 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA81ilfsFDQAADTh3mgAAAAx
+    [GEOIP_ADDR] => 95.211.80.11
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => NL
+    [GEOIP_COUNTRY_NAME] => Netherlands
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 52.366699
+    [GEOIP_LONGITUDE] => 4.900000
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 95.211.80.11
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 95.211.80.11
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 20366
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129993500806289&AMOUNT=100&PAYTYPE=2&DATE=20161025133550&CODE1=test02
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129993500806289&AMOUNT=100&PAYTYPE=2&DATE=20161025133550&CODE1=test02
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477391754.9
+    [REQUEST_TIME] => 1477391754
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=1&PAYID=636129993500806289&AMOUNT=100&PAYTYPE=2&DATE=20161025133550&CODE1=test02
+        )
+
+    [argc] => 1
+)
+
+
+массив request
+13:35:54 2016-10-25
+Array
+(
+    [LOGIN] => rechagent
+    [PASS] => volgavolgareka
+    [TYPE] => 2
+    [PAYID] => 636129993500806289
+    [AMOUNT] => 100
+    [PAYTYPE] => 2
+    [DATE] => 20161025133550
+    [CODE1] => test02
+)
+
+
+массив server
+13:35:54 2016-10-25
+Array
+(
+    [UNIQUE_ID] => WA81ilfsFDQAADTh3mkAAAAx
+    [GEOIP_ADDR] => 95.211.80.11
+    [GEOIP_CONTINENT_CODE] => EU
+    [GEOIP_COUNTRY_CODE] => NL
+    [GEOIP_COUNTRY_NAME] => Netherlands
+    [GEOIP_DMA_CODE] => 0
+    [GEOIP_METRO_CODE] => 0
+    [GEOIP_AREA_CODE] => 0
+    [GEOIP_LATITUDE] => 52.366699
+    [GEOIP_LONGITUDE] => 4.900000
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_HOST] => booking.rech-agent.ru
+    [HTTP_X_SERVER_ADDR] => 87.236.19.52
+    [HTTP_X_FORWARDED_PROTO] => http
+    [HTTP_X_REAL_IP] => 95.211.80.11
+    [PATH] => /usr/local/bin:/usr/bin:/bin
+    [LD_LIBRARY_PATH] => /opt/apache/2.4.10/lib
+    [SERVER_SIGNATURE] => <address>Apache/2.4.10 (Unix) Server at booking.rech-agent.ru Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.10 (Unix)
+    [SERVER_NAME] => booking.rech-agent.ru
+    [SERVER_ADDR] => 87.236.19.52
+    [SERVER_PORT] => 80
+    [REQUEST_SCHEME] => http
+    [REMOTE_ADDR] => 95.211.80.11
+    [DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /home/d/dkocheuj/booking.rech-agent.ru/public_html
+    [SERVER_ADMIN] => webmaster@booking.rech-agent.ru
+    [SCRIPT_FILENAME] => /home/d/dkocheuj/booking.rech-agent.ru/public_html/pay/pay.php
+    [REMOTE_PORT] => 20366
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=2&PAYID=636129993500806289&AMOUNT=100&PAYTYPE=2&DATE=20161025133550&CODE1=test02
+    [REQUEST_URI] => /pay/pay.php?LOGIN=rechagent&PASS=volgavolgareka&TYPE=2&PAYID=636129993500806289&AMOUNT=100&PAYTYPE=2&DATE=20161025133550&CODE1=test02
+    [SCRIPT_NAME] => /pay/pay.php
+    [PHP_SELF] => /pay/pay.php
+    [REQUEST_TIME_FLOAT] => 1477391754.96
+    [REQUEST_TIME] => 1477391754
+    [argv] => Array
+        (
+            [0] => LOGIN=rechagent&PASS=volgavolgareka&TYPE=2&PAYID=636129993500806289&AMOUNT=100&PAYTYPE=2&DATE=20161025133550&CODE1=test02
+        )
+
+    [argc] => 1
+)
+
+

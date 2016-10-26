@@ -8,8 +8,6 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/aamodule/class/catalog.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . "/aamodule/class/tur.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . "/aamodule/class/invoice.php";
 
-
-
 require_once $_SERVER['DOCUMENT_ROOT'] . "/libraries/vendor/autoload.php";
 
 
@@ -66,7 +64,7 @@ $r = $res->fetch_assoc();
 
 $fee = $r['fee'];
 $id_tur = $r['id_tur'];
-//die(print_r($sql,1));
+
 if ($r['buyer'] == 'ur') {
 
     $objPHPExcel = PHPExcel_IOFactory::load("invoice_agent.xlsx");
@@ -266,7 +264,7 @@ where id_schet = $id and aa_order.id = aa_place.id_order and is_delete=0 group  
 
 		$aSheet->setCellValue("AS$row", $sum);
 
-
+		$aSheet->getRowDimension($row)->setRowHeight(20);
 
 		$row++;
 
