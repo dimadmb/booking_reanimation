@@ -473,7 +473,7 @@ data-type-order='$typeOrder' data-num='$num' class='uk-button $class '>$Text</bu
 					<td>
 						<input
 
-								type="text" name="phone" placeholder="+7 (XXX) XXX-XX-XX">
+								type="text" name="phone" required placeholder="+7 (XXX) XXX-XX-XX">
 					</td>
 				</tr>
 				<tr>
@@ -581,6 +581,15 @@ data-type-order='$typeOrder' data-num='$num' class='uk-button $class '>$Text</bu
 
 		$(document).on('click','.sendRequest',function(){
 
+			if ($('input[name="phone"]').val() == "")
+			{
+				$('input[name="phone"]').css({border: "1px solid #f00"});
+				
+				return false;
+			}
+			
+			
+			
 			$(this).attr('disabled','disabled');
 			$('.fa-envelope').hide();
 			$('.fa-cog').show();

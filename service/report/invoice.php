@@ -82,7 +82,18 @@ if ($r['buyer'] == 'ur') {
 	$st = $r['name'] . ", ИНН " . $r['inn'] . ", КПП " . $r['kpp'] . ", " . $r['ur_address'] . ", тел. " . $r['phone'];
 	$aSheet->setCellValue("H17", $st);
 
-
+	
+	// добавлено
+	$sql = "SELECT * FROM `aa_schet` WHERE id = $id";
+	$res_schet = $db->query($sql);
+	while ($r_schet = $res_schet->fetch_assoc()) 
+	{
+		$permanent = $r_schet['permanent'];
+		$seson_discount = $r_schet['seson_discount'];
+	}
+	
+	//die($sql);
+	
 	$sql = "select price,num, count(*) as cc from aa_order, aa_place
 
 where id_schet = $id and aa_order.id = aa_place.id_order and is_delete=0 group  by num,price order by num, price DESC";
@@ -131,10 +142,11 @@ where id_schet = $id and aa_order.id = aa_place.id_order and is_delete=0 group  
 		$aSheet->setCellValue("AS$row", 'Без НДС');
 		$aSheet->setCellValue("S$row", 'шт');
 
-		$aSheet->setCellValue("P$row", $r_price['cc']);
-
-
-		$sum = $r_price['cc'] * $r_price['price'];
+		// добавлено
+		$aSheet->setCellValue("P$row", round($r_price['price'] * ((100 - $seson_discount) / 100) * ((100 - $permanent) / 100)));
+		$sum = round($r_price['cc'] * $r_price['price'] * ((100 - $seson_discount) / 100) * ((100 - $permanent) / 100));
+		
+		
 
 		$all_sum += $sum;
 
@@ -222,6 +234,17 @@ where id_schet = $id and aa_order.id = aa_place.id_order and is_delete=0 group  
 where id_schet = $id and aa_order.id = aa_place.id_order and is_delete=0 group  by num,price order by num, price DESC";
 
 	$res_price = $db->query($sql);
+
+	
+	// добавлено	
+	$sql = "SELECT * FROM `aa_schet` WHERE id = $id";
+	$res_schet = $db->query($sql);
+	while ($r_schet = $res_schet->fetch_assoc()) 
+	{
+		$permanent = $r_schet['permanent'];
+		$seson_discount = $r_schet['seson_discount'];
+	}
+	
 	$col = $res_price->num_rows;
 
 	if ($col > 1) $aSheet->insertNewRowBefore(21, $col - 1);
@@ -256,9 +279,10 @@ where id_schet = $id and aa_order.id = aa_place.id_order and is_delete=0 group  
 
 		$aSheet->setCellValue("Y$row", $r_price['cc']);
 
-		$aSheet->setCellValue("AD$row", $r_price['price']);
-
-		$sum = $r_price['cc'] * $r_price['price'];
+		
+		// добавлено		
+		$aSheet->setCellValue("AD$row", round($r_price['price'] * ((100 - $seson_discount) / 100) * ((100 - $permanent) / 100)));
+		$sum = round($r_price['cc'] * $r_price['price'] * ((100 - $seson_discount) / 100) * ((100 - $permanent) / 100));
 
 		$all_sum += $sum;
 

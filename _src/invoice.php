@@ -7,6 +7,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/aamodule/class/user.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . "/aamodule/class/catalog.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . "/aamodule/class/tur.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . "/aamodule/class/invoice.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/aamodule/class/Discount.php";
 
 require_once $_SERVER['DOCUMENT_ROOT'] . "/libraries/vendor/autoload.php";
 
@@ -67,12 +68,16 @@ $res_order = $db->query($sql);
 
 
 
-$sql ="select user_id, comment_manager, comment_user,
+$sql ="select user_id, comment_manager, comment_user, permanent, permanent_request, seson_discount,
 fee, buyer, date_format(timecreate,'%d.%m.%Y') as timecreate2 from aa_schet where id = $id limit 1";
 $res_schet = $db->query($sql);
 $r_schet = $res_schet->fetch_assoc();
 
 $fee = (int)$r_schet['fee'];
+
+$permanent = $r_schet['permanent']*1;
+$permanent_request = $r_schet['permanent_request']*1;
+$seson_discount = $r_schet['seson_discount']*1;
 
 
 if ($r_schet['buyer'] == 'ur'){
@@ -397,13 +402,64 @@ $invoiceData = invoice::getData($id);
 
 $data = tur::getPrices($invoiceData['id_tur']);
 
+// купленные каюты
+$sql ="select aa_order.num , aa_schet.id as schet from aa_schet, aa_order where \n
+aa_schet.id =  aa_order.id_schet and aa_schet.id_tur = ".$invoiceData['id_tur']." and status = 1 ";
+
+	//print_r($sql);
+
+$res_buy = $db->query($sql);
+$buys = array();
+while ($r_buy = $res_buy->fetch_assoc())
+{ 
+	$buys[]  =  $r_buy['num']; 
+}
+//  список кают, которые можно добавить
+
+
+
+
+
+//print_r($tur = tur::getData($invoiceData['id_tur']));
+
 $all_kautas =  $data['kautas'];
 $tariffs = $data['tariffs'];
 $nums15 = $data['nums15'];
 
-?>
+if (user::is_manager())
+{
 
-<?php while ($r_order = $res_order->fetch_assoc()){
+foreach($all_kautas as $num=> $val)
+{
+	if(in_array($num,$buys)) 	{		continue;	}
+	$free_kautas[] = $num;
+}
+
+asort($free_kautas);
+
+
+
+//print_r($free_kautas);
+?>
+<div>
+<select class="addKautas" data-hash="<?=$hash?>"><?
+foreach($free_kautas as $free_kauta)
+{
+	?>
+	<option value="<?=$free_kauta?>"><?=$free_kauta?></option>
+	<?
+}
+?>
+</select> 
+<button class="uk-button uk-button-primary addKauta">Добавить каюту</button>
+</div>
+<script>
+
+</script>
+
+<?php 
+}	
+	while ($r_order = $res_order->fetch_assoc()){
 
 	$id_order = $r_order['id'];
 	?>
@@ -446,6 +502,13 @@ $nums15 = $data['nums15'];
 					Посадочный талон
 				</a>
 			</div>
+			<div style="text-align: right;">
+
+				<button  data-hash="<?=$hashids_place->encode($r['id'])?>"
+						class="uk-button uk-button-danger removePlace">
+					Удалить место
+				</button>
+			</div>			
 			<?php } ?>
 
 
@@ -548,6 +611,12 @@ $nums15 = $data['nums15'];
 
 						<span><?=$r['price']?></span> руб.
 				<?php } ?>
+				<!--<br> Цена с учётом сезонной скидки <?= Discount::getSesonPercent() ?>%  
+				<span style="font-weight:900;"><?=$r['price']* Discount::getSesonKoef()  ?></span> руб. <br>-->
+				<br>
+				
+				
+				
 			</div>
 
 		</form>
@@ -560,7 +629,69 @@ $nums15 = $data['nums15'];
 
 
 <?php } ?>
+<?
+// полная стоимость
+$query = "
+select sum(price) as ss , aa_schet.id 
+from aa_schet, aa_order, aa_place
+where aa_place.id_order = aa_order.id 
+and aa_order.id_schet = aa_schet.id 
+and aa_order.is_delete = 0 
+and aa_order.id_schet = ".$id."
+group by aa_schet.id ";
+$res_full_price = $db->query($query);
+while ($r = $res_full_price->fetch_assoc()) {
+	$full_price = $r['ss']; // полная стоимость
+}
+?>
 
+<form class="permanent">
+
+	<?
+	if (!user::is_manager()) { ?>
+<label>
+	<input type="checkbox" style="margin:0;" id="permanent" name="permanent" <?= ($permanent > 0 ) ? "disabled checked" : ""; ?> <?= ($permanent_request > 0 ) ? "checked" : ""; ?>  >
+
+	Постоянный клиент - дополнительная скидка <br>
+	<span style="font-style:italic; color:red;">Оплата онлайн будет возможна после подтверждения скидки менеджером.</span>
+</label>
+	<? } ?>
+<br>
+
+	<?
+	if (user::is_manager()) { ?>
+	<?= ($permanent_request > 0 ) ? '<p style="color:red;">Запрос на подтверждение скидки постоянного клиента</p>' : ""; ?> 
+	
+	<label>
+	<input type="checkbox" style="margin:0;" id="permanent_confirm" name="permanent_confirm" <?= ($permanent > 0 ) ? " checked" : ""; ?> >
+	 Подтвердить скидку <input type="text" name="permanent_percent" value="5">%
+	</label>
+	
+	<label> Сезонная скидка <input type="text" name="seson_discount" value="<?=$seson_discount;?>">%</label>
+	<? }; ?>
+
+</form>
+<script>
+	jQuery(function ($) {
+		$('#permanent').change(function(){
+			if( !(<?=$permanent;?> > 0) && $(this).prop("checked"))
+			{
+				$('a.pay').css({display:"none"});
+			}
+			else 
+			{
+				$('a.pay').css({display:"inline-block"});
+			}
+		});
+		
+		$(document).ready(function(){
+			$('#permanent').trigger("change");
+		})
+		
+	})
+</script>
+
+<br>
 
 <?php if (user::is_manager()) { ?>
 	<form name="comment">
@@ -600,9 +731,9 @@ $nums15 = $data['nums15'];
 	
 
 
-	<!--<a target="_blank" href="https://b2c.appex.ru/payment/choice?orderSourceCode=<?=$id;?>&billingCode=Rechnoeagentstvo003" style="margin-top: 20px;" class="uk-button uk-button-success uk-width-1-1 uk-button-large pay saveInvoice">
-		Оплатить онлайн
-	</a>-->
+	<a target="_blank" href="/pay2/confirm.php?id=<?=$id;?>" style="margin-top: 20px;" class="uk-button uk-button-success uk-width-1-1 uk-button-large pay saveInvoice">
+		Оплатить онлайн  
+	</a>
 
 	
 
@@ -674,6 +805,59 @@ $nums15 = $data['nums15'];
 
 		});
 
+		
+		$('.addKauta').click(function(){
+			var num = $('.addKautas').val();
+			//console.log(val);
+			var url = "/service/invoice.php?action=addKauta";
+			var hash = $('.addKautas').data('hash');
+			console.log(hash);
+			$.post(url,{num : num, hash : hash },function(response){
+				
+				//console.log(response.success);
+				//console.log(response.success);
+				
+				if (response.success == 1){
+					alert('Каюта успешно добавлена');
+					location.reload();
+				} else{
+					alert('Каюта не добавлена');
+				}
+
+			});
+		});
+		
+		$('.removePlace').click(function(){
+
+			//var num = $(this).data('num'); // номер каюты
+			
+
+			if (!confirm('Удалить место? ')){ return false;}
+
+
+			var url = "/service/invoice.php?action=removePlace";
+			var hash = $(this).data('hash');
+			
+			//console.log(hash); 
+			
+			//return false;
+
+			$.post(url,{hash : hash},function(response){
+				
+				console.log(response.success);
+				
+				if (response.success == 1){
+					alert('Место успешно удалено');
+					location.reload();
+				} else{
+					alert('Место не удалось удалить');
+				}
+
+			});
+
+
+		});		
+		
 		$('.addPlace').click(function(){
 
 			var num = $(this).data('num');
@@ -740,7 +924,7 @@ $nums15 = $data['nums15'];
 
 
 		$('.saveInvoice').click(function () {
-			var data2,data, url;
+			var data3,data2,data, url;
 
 			if ($('.fiz-button[aria-checked=true]').length==1){
 				data = $('.fiz-form').serialize();
@@ -754,11 +938,17 @@ $nums15 = $data['nums15'];
 				data += '&'+data2;
 
 			}
+			
+				data3 = $('form.permanent').serialize();
+				data += '&'+data3;
+
+			
 
 			console.log(data);
 
 			url = '/service/invoice.php?action=save';
 			$.post(url, data, function (response) {
+
 
 				if (response.data_buyer==1){
 						UIkit.notify({

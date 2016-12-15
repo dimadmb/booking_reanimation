@@ -80,6 +80,84 @@ switch ($action) {
 		echo json_encode($out);
 		break;
 
+
+	case 'addKauta':
+	
+	//die(json_encode(array('success' => 456)));
+	
+		if (!user::is_manager()) die(json_encode(array('success' => 0)));
+
+		$hashids_schet = new Hashids\Hashids(config::$schet_salt,32);
+		
+
+		
+		$num = $_POST['num'];
+		$hash = $_POST['hash'];
+		
+		$hash = $hashids_schet->decode($hash);
+		if (count($hash) == 0) die(json_encode(array('success' => 0 )));
+		
+		$id_schet = $hash[0];
+		
+		
+		$db = mysqli2::connect();
+		$sql = "insert into aa_order set num = $num , places = 1 , id_schet =  $id_schet ";		
+		$res = $db->query($sql);
+
+		$out['success'] = $db->affected_rows;
+
+		echo json_encode($out);
+		
+		
+		break;		
+		
+	case 'removePlace':
+		
+		if (!user::is_manager()) die(json_encode(array('success' => 5555)));
+		
+		$hashids = new Hashids\Hashids(config::$place_salt, 32);
+		
+		$hash = $_POST['hash'];
+
+		$hash = $hashids->decode($hash);
+
+		//if (count($hash) == 0) die(json_encode(array('success' => $hash)));
+
+		$id = $hash[0];
+
+		$db = mysqli2::connect();
+
+		$sql = "SELECT * FROM `aa_place` WHERE id = $id";
+		$res = $db->query($sql);
+		while ($r = $res->fetch_assoc())
+		{
+			$id_order = $r["id_order"];
+		}
+		
+		$sql = "DELETE FROM `aa_place` WHERE id = $id";
+		$res = $db->query($sql);
+		$out['success'] = $db->affected_rows;
+		
+		$sql = "SELECT * FROM `aa_place` WHERE id_order = $id_order";
+		$res = $db->query($sql);
+		//$out['success'] = $res->num_rows;
+
+		if($res->num_rows == 0) 
+		{
+			$sql = "DELETE FROM `aa_order` WHERE id = $id_order";
+			$res = $db->query($sql);
+		}
+		else 
+		{
+			$sql = "UPDATE  `aa_order` SET `places` = ".$res->num_rows."  WHERE id = $id_order";
+			$res = $db->query($sql);
+		}
+		
+
+		echo json_encode($out);
+		
+		break;	
+		
 	case 'addPlace':
 
 		if (!user::is_manager()) die(json_encode(array('success' => 0)));
@@ -97,8 +175,16 @@ switch ($action) {
 
 		$db = mysqli2::connect();
 
+		// добавляем место
 		$sql = "insert into aa_place set id_order= $id";
-
+		$res = $db->query($sql);
+		
+		// проверяем количество место
+		$sql = "SELECT * FROM `aa_place` WHERE id_order = $id_order";
+		$res = $db->query($sql);
+		
+		// записываем новое количество мест
+		$sql = "UPDATE  `aa_order` SET `places` = ".$res->num_rows."  WHERE id = $id_order";
 		$res = $db->query($sql);
 
 		$out['success'] = $db->affected_rows;
@@ -268,6 +354,13 @@ aa_agent,  jdr8t_users where aa_agent.user_id =  $user_id and  jdr8t_users.id= a
 
 		$buyer = $_POST['buyer'];
 
+		$permanent_request = isset($_POST['permanent']) ? 1 : 0;
+		$permanent_confirm = isset($_POST['permanent_confirm']) ? 1 : 0;
+		$permanent_percent = isset($_POST['permanent_percent']) ? $_POST['permanent_percent']*$permanent_confirm : 0;
+		$seson_discount = isset($_POST['seson_discount']) ? $_POST['seson_discount'] : 0;
+		
+		/// добавить подтверждение и процент скидки
+		
 		if ($buyer == 'ur') {
 
 			$stmt = $db->stmt_init();
@@ -277,16 +370,18 @@ aa_agent,  jdr8t_users where aa_agent.user_id =  $user_id and  jdr8t_users.id= a
 				$comment_manager = $_POST['comment_manager'];
 				$user_id = $_POST['select_agent'];
 
-				$sql = "update aa_schet set user_id = ?, buyer = ?,fee = ?, comment_manager = ?  where id = ? limit 1";
+
+				$sql = "update aa_schet set user_id = ?, buyer = ?,fee = ?, comment_manager = ?  ,permanent = ? , seson_discount = ?  where id = ? limit 1";
 				$stmt->prepare($sql);
-				$stmt->bind_param('isisi', $user_id, $buyer, $fee, $comment_manager, $id_schet);
+				$stmt->bind_param('isisiii', $user_id, $buyer, $fee, $comment_manager, $permanent_percent ,$seson_discount, $id_schet );
 				$stmt->execute();
+
 			} else {
 
 				$comment_user = $_POST['comment_user'];
-				$sql = "update aa_schet set buyer = ?, comment_user = ?  where id = ? limit 1";
+				$sql = "update aa_schet set buyer = ?, comment_user = ? ,permanent_request = ? where id = ? limit 1";
 				$stmt->prepare($sql);
-				$stmt->bind_param('ssi', $buyer,$comment_user, $id_schet);
+				$stmt->bind_param('ssii', $buyer,$comment_user, $permanent_request,  $id_schet);
 				$stmt->execute();
 			}
 
@@ -333,19 +428,19 @@ where id_schet = ? limit 1";
 			if (user::is_manager()) {
 				$comment_manager = $_POST['comment_manager'];
 
-				$sql = "update aa_schet set buyer = ?, comment_manager = ?  where id = ? limit 1";
+				$sql = "update aa_schet set buyer = ?, comment_manager = ? ,permanent = ? , seson_discount = ? where id = ? limit 1";
 				$stmt->prepare($sql);
-				$stmt->bind_param('ssi', $buyer, $comment_manager, $id_schet);
+				$stmt->bind_param( 'ssiii', $buyer, $comment_manager, $permanent_percent, $seson_discount, $id_schet);
 				$stmt->execute();
+
 			} else {
 
 				$comment_user = $_POST['comment_user'];
-				$sql = "update aa_schet set buyer = ? , comment_user = ?  where id = ? limit 1";
+				$sql = "update aa_schet set buyer = ? , comment_user = ? ,permanent_request = ? where id = ? limit 1";
 				$stmt->prepare($sql);
-				$stmt->bind_param('ssi', $buyer, $comment_user, $id_schet);
+				$stmt->bind_param('ssii', $buyer, $comment_user, $permanent_request, $id_schet);
 				$stmt->execute();
 			}
-
 
 			$sql = "update aa_buyer_fiz set \n
 name = ?,

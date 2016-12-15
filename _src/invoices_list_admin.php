@@ -104,19 +104,19 @@ while ($r = $res->fetch_assoc()) {
 }
 
 // суммы
-$sql = " select sum(price) as ss , aa_schet.id from \n
+$sql = " select price as ss , aa_schet.id from \n
 	aa_schet, aa_order, aa_place where \n
 	aa_place.id_order = aa_order.id and \n
 	aa_order.id_schet = aa_schet.id and \n
-	aa_order.is_delete = 0 group by aa_schet.id ";
+	aa_order.is_delete = 0 ";
 
 $res = $db->query($sql);
 $money = array();
 while ($r = $res->fetch_assoc()) {
-	$money[$r['id']] = $r['ss'];
+	$money[$r['id']][] = $r['ss'];
 }
 
-
+//var_dump($money);
 
 
 // оплаты
@@ -172,11 +172,44 @@ while ($r = $res_name_fiz->fetch_assoc()) {
 	$r_name_fiz[$r['id_schet']] = $r['surname'] . " " . $r['name'] . " " . $r['patronymic'];
 }
 
+// мин и макс дата
+
+$sql = "select date_format(min(date_start),'%d.%m.%Y') as d1, date_format(max(date_start), '%d.%m.%Y') as d2 from aa_tur";
+$res = $db->query($sql);
+$r = $res->fetch_assoc();
+$d1 = $r['d1'];
+$d2 = $r['d2'];
+
+$listTeplohod = catalog::getListTeplohod();
+
+$ship = (isset(JRequest::get("jform")["ship"]) && (JRequest::get("jform")["ship"] != 0)) ? JRequest::get("jform")["ship"] : null ;
+$and_teplohod = ($ship != null) ? "and aa_tur.id_teplohod = ".$ship : "";
+
+$date_1 = (isset(JRequest::get("jform")["d1"]) && (JRequest::get("jform")["d1"] != 0)) ? JRequest::get("jform")["d1"] : null ;
+$and_date_1 = "";
+if($date_1 != null)
+{
+	$d1 = $date_1;
+	$date_1 = substr($date_1,6,4)."-".substr($date_1,3,2)."-".substr($date_1,0,2);
+	$and_date_1 = " and date_start >= '$date_1'";
+}
+$date_2 = (isset(JRequest::get("jform")["d2"]) && (JRequest::get("jform")["d2"] != 0)) ? JRequest::get("jform")["d2"] : null ;
+$and_date_2 = "";
+if($date_2 != null)
+{
+	$d2 = $date_2;
+	$date_2 = substr($date_2,6,4)."-".substr($date_2,3,2)."-".substr($date_2,0,2);
+	$and_date_2 = " and date_start >= '$date_2'";
+}
+	
 
 $sql = "select aa_schet.id as id_schet ,
 
 comment_manager,
 fee,
+permanent,
+permanent_request,
+seson_discount,
 aa_schet.buyer,
 status,
 aa_tur.id as id_tur,
@@ -188,10 +221,38 @@ date_format(date_stop, '%d.%m') as d2,
 aa_teplohod.name as teplohod \n
 
  from aa_schet,aa_tur, aa_teplohod \n
- where aa_schet.id_tur = aa_tur.id and aa_tur.id_teplohod = aa_teplohod.id  order by aa_schet.id DESC";
+ where aa_schet.id_tur = aa_tur.id and aa_tur.id_teplohod = aa_teplohod.id 
+".$and_teplohod." ".$and_date_1." ".$and_date_2." 
+  
+ order by aa_schet.id DESC";
 $res = $db->query($sql);
+
+//print_r($sql);
+
 ?>
 
+
+
+<div id="formFind">
+
+    <form class="uk-form" method="GET" >
+        Теплоход
+        <select  name="ship">
+            <option value="0">Любой теплоход</option>
+            <?php foreach ($listTeplohod as $item){  ?>
+			<option value="<?=$item['id']?>"  <? if($item['id'] == $ship) { ?> selected <? } ?>><?=$item['name']?></option>
+            <?php } ?>
+        </select>
+
+        Отправление,
+
+        с <input name="d1" type="text" style="width: 90px;" data-uk-datepicker="{format:'DD.MM.YYYY', i18n: i18n }" value="<?=$d1?>" >
+        по <input name="d2" type="text" style="width: 90px;" data-uk-datepicker="{format:'DD.MM.YYYY', i18n: i18n }" value="<?=$d2?>" >
+		
+		<input type="submit" name="filter" value="Фильтровать">
+
+    </form>
+</div>
 
 <h1>Заявки
 
@@ -264,17 +325,25 @@ $res = $db->query($sql);
 			$id_schet = $r['id_schet'];
 
 			$classOplata = '';
-
+			$money2 = 0;
+			
+			
+			
+			foreach($money[$id_schet] as $moneyItem)
+			{
+				//var_dump();
+				
+				$money2 = $money2 + round($moneyItem * ((100 - $r['fee']) / 100) * ((100 - $r['seson_discount']) / 100) * ((100 - $r['permanent']) / 100)  /* тут перемножим все скидки */,0);
+			}
+			
+			
 			if ( isset($pays_sum[$id_schet])) {
 
 				if ($pays_sum[$id_schet] > 0) {
 
-
 					if ($r['buyer'] == 'fiz') $r['fee'] = 0;
 
 					$pays_sum[$id_schet] = round($pays_sum[$id_schet],2);
-
-					$money2 =  round($money[$id_schet] * (100 - $r['fee']) / 100,2);
 
 					if ( $pays_sum[$id_schet] < $money2 ) $classOplata = 'classPartPay';
 					else if ( $pays_sum[$id_schet] == $money2 ) $classOplata = 'classFullPay';
@@ -282,10 +351,6 @@ $res = $db->query($sql);
 				}
 			}
 			?>
-
-
-
-
 
 			<td style="text-align: right; width: 100px;" class="<?=$classOplata ?>">
 
@@ -295,8 +360,8 @@ $res = $db->query($sql);
 //				$aa = ($pays_sum[$id_schet] - $money2)  ;
 //				helper::var_dump_pre( $aa ) ?>
 
-				<?php if (isset($money[$id_schet])) { ?>
-					<?= $money[$id_schet] ?> <i class="fa fa-rub" aria-hidden="true"></i>
+				<?php if ($money2 != -1) { ?>
+					<?= $money2 ?> <i class="fa fa-rub" aria-hidden="true"></i>
 
 
 					<?php if ($classOplata == 'classPartPay'){

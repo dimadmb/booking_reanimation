@@ -115,7 +115,7 @@ foreach ($replace as $key => $item){
 
 //заполняем пассажиров
 
-$sql = "select aa_place.* , aa_order.num from aa_schet,aa_order,aa_place where \n
+$sql = "select aa_place.* , aa_order.num, aa_schet.permanent, aa_schet.seson_discount  from aa_schet,aa_order,aa_place where \n
 
 aa_schet.id = $id and aa_schet.id = aa_order.id_schet and aa_order.is_delete=0 and \n
 aa_place.id_order = aa_order.id
@@ -137,7 +137,7 @@ foreach ($places as $place){
 
 	$phpWord->setValue("NUM#$i", $place['num']);
 
-	$phpWord->setValue("SUM#$i", $place['price']);
+	$phpWord->setValue("SUM#$i", round($place['price'] * ((100 - $place['seson_discount']) / 100) * ((100 - $place['permanent']) / 100)) );
 
 	$index = $dataPrices['kautas'][$place['num']][0];
 
@@ -150,7 +150,7 @@ foreach ($places as $place){
 
 	$phpWord->setValue("PASS#$i", $place['surname'] .' '. $place['name']. ' '. $place['patronymic']);
 
-	$sum += $place['price'];
+	$sum += round($place['price'] * ((100 - $place['seson_discount']) / 100) * ((100 - $place['permanent']) / 100)) ;
 	$i++;
 }
 
